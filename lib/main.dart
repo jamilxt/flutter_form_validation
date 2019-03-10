@@ -48,6 +48,10 @@ class _MyCustomFormState extends State<MyCustomForm> {
                 return 'Please enter some text';
               }
             },
+            // Decorate TextFormField
+            decoration: InputDecoration(
+                border: InputBorder.none,
+                hintText: 'Please enter a search term'),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 16.0),
